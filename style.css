@@ -22,8 +22,13 @@ h2 {
   height: 100%;
   color: white;
   background-color: blue;
-  text-align: center;
-  padding-top: 100px;
+  text-align: left;
+  padding-top: 300px;
+  padding-left: 10px;
+}
+.blue-box p {
+  /* bottom: 0;*/
+  font-weight: bold;
 }
 .yellow-1 {
   background-color: rgb(221, 221, 129);
@@ -46,6 +51,7 @@ h2 {
   text-align: center;
 }
 .yellow-box-wrapper {
-  width: 40%;
+  width: 30%;
   justify-items: center;
+  position: relative;
 }
